@@ -15,7 +15,7 @@ function Header() {
     <Link to={'/about'}><a href="">About</a></Link>
     <Link to={'/register'}><a href="">Register</a></Link>
     <Link to={'/login'}><a href="">Login</a></Link>
-    <Link to={'/products'}><a href="">Products</a></Link>
+    <Link to={'/product'}><a href="">Products</a></Link>
   </nav>
 </header>
 </div>
