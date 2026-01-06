@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 function Header() {
   return (
 <>
@@ -10,12 +11,11 @@ function Header() {
   <b>MY MART</b>
   </div>
   <nav style={{display:'flex' ,gap:'20px',alignItems:'center'}}>
-    <link to={'/'}><a href="">Home</a></link>
-    <link to={'/about'}><a href="">About</a></link>
-    <link to={'/register'}><a href="">Register</a></link>
-    <link to={'/logi'}><a href="">Login</a></link>
-    <link to={'/products'}><a href="">Products</a></link>
-    
+    <Link to={'/'}><a href="">Home</a></Link>
+    <Link to={'/about'}><a href="">About</a></Link>
+    <Link to={'/register'}><a href="">Register</a></Link>
+    <Link to={'/login'}><a href="">Login</a></Link>
+    <Link to={'/products'}><a href="">Products</a></Link>
   </nav>
 </header>
 </div>
